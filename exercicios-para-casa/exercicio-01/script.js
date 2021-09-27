@@ -8,3 +8,19 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+
+//Criando uma variável
+const series = ['Greys Anatomy', 'Friends', 'Lúcifer', 'Dark', 'Lupin', 'Suits'];
+console.log(series);
+
+//Removendo primeiro item
+series.shift();
+console.log(series);
+
+//Ordenando a lista em ordem alfabética
+series.sort();
+console.log(series);
+
+//Vendo se existe algum item com nome salada dentro da array
+console.log(series.includes("Salada"));
