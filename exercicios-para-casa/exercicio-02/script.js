@@ -28,3 +28,38 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+for(let indice= 0; indice < pessoas.length; indice++){
+    console.log(pessoas[indice].nome);
+    console.log(pessoas[indice].profissao);
+    console.log(pessoas[indice].pais);
+
+} 
+
+/*
+let indice=0;
+do {
+  
+  console.log(pessoas[indice].nome);
+  console.log(pessoas[indice].profissao);
+  indice++;
+}
+while (pessoas[indice].pais  == 'Brasil');
+
+*/
+
+
+
+let pessoas2 = (pessoas.slice(2));
+console.log(pessoas2);
+
+for(let indice= 0; indice < pessoas2.length; indice++){
+    console.log(pessoas2[indice].nome);
+    console.log(pessoas2[indice].profissao);
+    
+}
+
+
+
+
+

@@ -8,3 +8,16 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+let restaurantes = [`Sal`, `Cá-va`, `President`, `Mortadela BR`];
+
+console.log(restaurantes);
+restaurantes.shift();
+
+console.log(restaurantes);
+
+restaurantes.sort();
+console.log(restaurantes);
+
+
+console.log(restaurantes.includes(`salada`));
