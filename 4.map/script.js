@@ -1,3 +1,15 @@
+//demonstração 1
+let minhaListaDeCompras = ["maçã", "abacate", "pitaia", "tamarindo", "banana", "cajá", "butiá", "melão"]
+
+// parametros do map function (elemento, indice, lista)
+const minhaLista2 = minhaListaDeCompras.map( 
+    function (elemento, indice, lista){
+   return `o elemento ${elemento } no indice ${indice} esta na lista ${lista}`
+    }   
+)
+
+
+//demonstracao 2
 const sobrinhosDaVivian = [
     {
       nome: 'Beyoncé',
@@ -18,20 +30,3 @@ const sobrinhosDaVivian = [
   const sobrinhosNome = sobrinhosDaVivian.map(function(sobrinho){
     return console.log(sobrinho.nome);
   })
-
-/*
-  console.log(sobrinhosDaVivian[0]);
-  console.log(sobrinhosDaVivian[0].cor[1]);
-*/
-
-let livroDosAbracos = {
-  autor: "Eduardo Galeano",
-  nome: "O livro dos abraços", 
-  traducao: "Eric Nepomuceno", 
-  ehBom: true,
-  poemas: ["o mundo", "a origem do mundo", "a função da arte/1"],
-  numeroDePaginas: 320 
-}
-
-
-//console.log(livroDosAbracos.poemas[2])
