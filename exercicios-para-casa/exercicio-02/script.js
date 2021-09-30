@@ -28,3 +28,8 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+//etapa 1
+console.log(pessoas);
+
+//etapa 2

@@ -9,3 +9,42 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+
+//etapa 1
+const funcionarios1 = [
+    {
+        nome: 'Eduarda',
+        cargor: 'Desenvolvedora frontend Sênior',
+        idade: 26,
+        salário: 10000,
+        anosDeEmpresa: 4,
+    },
+    {
+        nome: 'Mariane',
+        cargor: 'UX Desing',
+        idade: 24,
+        salário: 5000,
+        anosDeEmpresa: 3,
+    },
+    {
+        nome: 'Ricardo',
+        cargor: 'Desenvolvedor frontend Júnior',
+        idade: 23,
+        salário: 3000,
+        anosDeEmpresa: 1,
+    },
+    {
+        nome: 'Luiz',
+        cargor: 'Desenvolvedor backend junior',
+        idade: 24,
+        salário: 2800,
+        anosDeEmpresa: 1,
+    },
+    {
+        nome: 'Júlia',
+        cargor: 'Jovem aprendiz',
+        idade: 18,
+        salário: 1045,
+        anosDeEmpresa: 1,
+    },
+]
