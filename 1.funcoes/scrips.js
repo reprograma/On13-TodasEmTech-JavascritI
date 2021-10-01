@@ -23,7 +23,7 @@ function parImpar(num){
     if(num % 2 == 0){
        return `${num} é um número par`;
    }else {
-       return `${num} é um numero ímpar`;
+       return `${num} é um numero ímpar`
    }
 }
 // console.log(parImpar("batata"))
@@ -41,7 +41,3 @@ let soma1 = soma(4);
 let soma2 = soma(4,4); 
 let soma3 = soma();
 console.log(soma1, soma2, soma3);
-
-
-
-
