@@ -53,13 +53,12 @@ console.log(comidas[0].pastel.quantidade) */
         altura: '140',
     },
     {
-      nome: 'nicodemio',
-      grauParentesco: 'pai',
-      peso: 67,
-      altura: '175 cm',
+nome: 'nicodemio',
+grauParentesco: 'pai',
+peso: 67,
+altura: '175 cm',
     }
-  ];
-  
+];
 // 2. use métodos para acessar valores das propriedades desses objetos, e encontrar objetos pelo indice da lista.
 console.log(familia[1].altura);
 console.log(familia[0].grauParentesco);
@@ -68,5 +67,4 @@ console.log(familia.length);
 
 for(let indice= 0; indice < familia.length; indice++){
     console.log(familia[indice].nome);
-}
-/*
+*/

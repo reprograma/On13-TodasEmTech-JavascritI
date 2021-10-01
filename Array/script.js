@@ -34,7 +34,7 @@ console.log(alunas);
 console.log(alunas.length);
 
 
-- Objeto - .js
+//Objeto - .js
 const sobrinhosDaVivian = [
     {
       nome: 'Beyoncé',
