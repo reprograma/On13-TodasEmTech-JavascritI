@@ -21,8 +21,14 @@ const pessoas = [
         pais: 'Brasil',
     },
 ];
-/*
-1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;
+
+//for(let pessoa= 0; indice < pessoas.length; indice++){
+    console.log(pessoas[indice].nome), console.log(pessoas[indice].profissao), console.log(pessoas[indice].pais);//
+
+
+//1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;
+pessoas;
+console.log(pessoas);
 
 2. ETAPA2: Crie uma nova array que retorne o nome e a profissão das pessoas que vivem no Brasil, para as que não vivem no Brasil retorne o nome da pessoa com a mensagem: " infelizmente não mora na área pesquisada"; 
 
