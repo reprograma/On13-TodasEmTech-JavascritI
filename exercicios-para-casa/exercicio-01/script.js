@@ -8,3 +8,15 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+const viagemHogwarts = [
+  "coruja",
+  "malão",
+  "varinha",
+  "livro de feitiços",
+  "livro de poções",
+  "vassoura nimbus 2000",
+];
+passagemHogwarts.shift();
+const organiza = passagemHogwarts.sort();
+const contem = passagemHogwarts.includes("salada");
