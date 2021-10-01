@@ -27,7 +27,7 @@ function parImpar(num){
         return `${num} é um numero ímpar`
     }
 }
-// console.log(parImpar("batata"))
+console.log(parImpar(2))
 
 // let numeroAleatorio = parImpar(7); 
 // console.log(numeroAleatorio)
