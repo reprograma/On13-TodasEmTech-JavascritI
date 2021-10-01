@@ -22,9 +22,15 @@ const pessoas = [
     },
 ];
 /*
-1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;
+1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;*/
+    console.log(pessoas)
+/*2. ETAPA2: Crie uma nova array que retorne o nome e a profissão das pessoas que vivem no Brasil, para as que não vivem no Brasil retorne o nome da pessoa com a mensagem: " infelizmente não mora na área pesquisada"; */
+let moradoresBrasil = pessoas.slice(2, 4);
 
-2. ETAPA2: Crie uma nova array que retorne o nome e a profissão das pessoas que vivem no Brasil, para as que não vivem no Brasil retorne o nome da pessoa com a mensagem: " infelizmente não mora na área pesquisada"; 
+console.log(moradoresBrasil);
 
-3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
+
+/*3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+let frontEnd = pessoas.slice(1, 4);
+console.log(frontEnd);
