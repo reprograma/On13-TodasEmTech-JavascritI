@@ -9,3 +9,41 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+
+let funcionarias = [
+    {
+        nome: 'Ana',
+        cargo:'Desenvolvedora Front-End',
+        idade: '23',
+        salario: '3000,00',
+        anosDeEmpresa: '2',
+    },
+    {
+        nome: 'Beatriz',
+        cargo: 'Desenvolvedora Back-End',
+        idade: '29',
+        salario: '3000,00',
+        anosDeEmpresa: '2',
+    },
+    {
+        nome: 'Carol',
+        cargo: 'Engenheira de Dados',
+        idade: '34',
+        salario: '3000,00',
+        anosDeEmpresa: '1',
+    },
+    {
+        nome: 'Daniela',
+        cargo: 'Cientista de Dados',
+        idade: '45',
+        salario: '3000,00',
+        anosDeEmpresa: '3',
+    },
+    {
+        nome: 'Elisa',
+        cargo: 'Programadora',
+        idade: '18',
+        salario: '3000,00',
+        anosDeEmpresa: '1',
+    },
+];
