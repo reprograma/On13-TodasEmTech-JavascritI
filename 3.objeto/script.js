@@ -6,6 +6,7 @@ const sobrinhosDaVivian = [
       cor: ['amarelo', 'branco', 'marrom', 'dourado'],
       caracteristica: ['brincalhão', 'dengoso'],
     },
+    
     {
       nome: 'Iza',
       idade: 1,

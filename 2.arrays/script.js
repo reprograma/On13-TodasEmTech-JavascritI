@@ -5,7 +5,8 @@ let alunas = ["Taiana", "Marcela", "Valenthina", "Valentina", "Bruna Mara", "Cel
 //console.log(alunas[alunas.length - 1]) // a posição da última aluna na lista []
 
 
-// metodos de arrays - funções pré-prontas
+// metodos de arrays - funções pré-prontas:
+
 // push() - adiciona ao final 
 // pop() - retira no final 
 // shift() - retira do inicio
