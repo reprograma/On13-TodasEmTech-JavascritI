@@ -9,3 +9,49 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+
+
+const funcionarios = [{
+    nome: 'Ana',
+    cargo: 'Diretora',
+    idade: '40',
+    salário: 2.100,
+    tempoEmpresa: 7,
+},
+{
+    nome: 'Paola',
+    cargo: 'Auxiliar',
+    idade: '27',
+    salário: 1.100,
+    tempoEmpresa: 4,
+},
+{
+    nome: 'Marcos',
+    cargo: 'Segurança',
+    idade: '30',
+    salário: 1.800,
+    tempoEmpresa: 5,
+},
+{
+    nome: 'Maria',
+    cargo: 'Auxiliar de limpeza',
+    idade: '336',
+    salário: 1.200,
+    tempoEmpresa: 2,
+},
+{
+    nome: 'Fátima',
+    cargo: 'Advogada',
+    idade: '55',
+    salário: 4.000,
+    tempoEmpresa: 6,
+}
+]; 
+ funcionarios.map (function(pessoa){
+     if (pessoa.anosEmporesa >=3){
+         pessoa.salario = parseFloat(pessoa.salario * 1.10)
+     } else{
+        pessoa.salario = parseFloat(pessoa.salario * 1.05)
+     }
+     return pessoa
+ })

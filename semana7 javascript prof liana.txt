@@ -1,0 +1,353 @@
+Esse é o dontpad da turma online 13, use e abuse, escreva logo abaixo de cada tópico aqui:
+>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+DÚVIDAS-------------------------------------------------------------------------------------?
+
+ o length - 1 - também pode retirar o elemento como o POP?
+
+
+
+
+
+
+
+//aula
+
+Poderia dar um exemplo de quando usar let e const (ainda não compreendi bem)
+
+no inicio tudo era var, virou varzea
+
+let numero = 0 
+
+numero = numero + 1 
+
+const pergunta = prompt('digite algo')
+
+
+
+Pode falar mais uma vez sobre o length?
+Prof pq as vezes utiliza ; no final e as vezes não? ex alunas.unshift("Elis", "Ane") console.log(alunas); console.log(alunas.includes("Marcela")); alunas.sort(); console.log(alunas)
+
+erro da prof, ou põe sempre o ; ou não põe nunca. Não existe consenso sobre usar ou não, mas não é obrigatório
+
+
+
+SUGESTÕES-------------------------------------------------------------------------------- ;)
+
+
+
+
+
+
+C:\Users\domen\Desktop\On13-TodasEmTech-JavascritI\exercicio-aula\objeto\.js
+DICAS -------------------------------------------------------------------------------- ;p
+
+abriu e fechou colchete [ ] --- listas const lista = [item1, item2 ...]  ou acessar a posição da lista array[posição]
+abriu e fechou chaves 
+ 
+
+
+
+
+CÓDIGOS FEITOS EM AULA------------------------------------------------------------- < />
+- map
+
+//demonstração 1
+let minhaListaDeCompras = ["maçã", "abacate", "pitaia", "tamarindo", "banana", "cajá", "butiá", "melão"]
+
+// parametros do map function (elemento, indice, lista)
+const minhaLista2 = minhaListaDeCompras.map( 
+    function (elemento, indice, lista){
+   return `o elemento ${elemento } no indice ${indice} esta na lista ${lista}`
+    }   
+)
+
+
+//demonstracao 2
+const sobrinhosDaVivian = [
+    {
+      nome: 'Beyoncé',
+      idade: 1,
+      castrado: true,
+      cor: ['amarelo', 'branco', 'marrom', 'dourado'],
+      caracteristica: ['brincalhão', 'dengoso'],
+    },
+    {
+      nome: 'Iza',
+      idade: 1,
+      castrado: true,
+      cor: ['branco', 'preto'],
+      caracteristica: ['fofinha', 'sociável'],
+    }
+  ];
+
+  const sobrinhosNome = sobrinhosDaVivian.map(function(sobrinho){
+    return console.log(sobrinho.nome);
+  })
+
+
+
+-filter 
+const idades = [ 23, 50, 12, 65, 10, 5, 80]
+
+
+//o nosso filter ele filtra . 
+const maioresDeIdade = idades.filter(function(idade){
+    return idade >= 18;
+})
+
+console.log(maioresDeIdade);
+
+
+
+
+
+
+- Arrays -.js
+let alunas = ["Taiana", "Marcela", "Valenthina", "Valentina", "Bruna Mara", "Celina"];
+
+//console.log("tamanho da array: ", alunas.length )
+//console.log(alunas[2]) // aluna na posição [2]
+//console.log(alunas[alunas.length - 1]) // a posição da última aluna na lista []
+
+
+// metodos de arrays - funções pré-prontas
+// push() - adiciona ao final 
+// pop() - retira no final 
+// shift() - retira do inicio
+// unshift() - coloca no inicio
+// includes() - ve se existe 
+// sort() - ordena numerica ou alfabeticamente
+
+alunas.push("Quezia", "Aida"); 
+console.log(alunas);
+alunas.pop();
+console.log(alunas);
+alunas.shift();
+console.log(alunas);
+alunas.unshift("Elis", "Ane Carolina");
+console.log(alunas);
+console.log(alunas.includes("Marcela"));
+alunas.sort(); 
+console.log(alunas);
+console.log(alunas.length);
+
+
+- Objeto - .js
+const sobrinhosDaVivian = [
+    {
+      nome: 'Beyoncé',
+      idade: 1,
+      castrado: true,
+      cor: ['amarelo', 'branco', 'marrom', 'dourado'],
+      caracteristica: ['brincalhão', 'dengoso'],
+    },
+    {
+      nome: 'Iza',
+      idade: 1,
+      castrado: true,
+      cor: ['branco', 'preto'],
+      caracteristica: ['fofinha', 'sociável'],
+    }
+  ];
+
+
+  console.log(sobrinhosDaVivian[0]);
+  console.log(sobrinhosDaVivian[0].cor[1]);
+
+
+
+
+
+- FUNCOES - .js
+/*
+function comprarLeite(dinheiro, leite) {
+    .... 
+    return leite
+}
+
+comprarLeite(10, "chocolate")
+comprarLeite(5, "amendoim")
+
+
+funcao comprarLeite
+dinheiro, leite - parametro da funcao
+{ sair de casa, caminhar ate a venda, falar o vendedor, se eu tiver dinheiro pra 3 caixas, traz 2 e compra o resto em bala, fazer a troca do dinheiro pelo leite, voltar pra casa
+return leite } 
+
+
+console.log("printa isso daqui")
+alert("bom dia")
+prompt()
+*/
+
+function parImpar(num){
+     if(num % 2 == 0){
+        return `${num} é um número par`;
+    }else {
+        return `${num} é um numero ímpar`
+    }
+}
+// console.log(parImpar("batata"))
+
+// let numeroAleatorio = parImpar(7); 
+// console.log(numeroAleatorio)
+
+//declaracao da funcao
+function soma(num1 = 0, num2 = 5) {
+  //ação ou desinvolvimento da funcao
+    return num1 + num2; // retorno
+}
+//chamada da funcao
+let soma1 = soma(4);
+let soma2 = soma(4,4); 
+let soma3 = soma();
+console.log(soma1, soma2, soma3);
+
+
+- REVISÃO - index.html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <>
+        //no ecma 6 (ultima atualização do java) criou-se o let e o const
+        // + - * /  , > < == === >= <= != !== %
+        // string, number, booleanos, object, function
+        const maravilhosa = true; 
+        let num = 2
+        let nome = "fabiula"
+        nome == "fabiula" // ???
+        nome === "fabiula" // é igual a fabiula e é uma string?
+        //% resto é o que sobra de uma divisão
+        
+        /* 
+        alert("bom dia gurias!!!")
+        console.log( "o resto de 13 dividido por 2 é: ", 13 % 2) 
+        
+        let seuNome = prompt("Digite o seu nome: ")
+        alert( seuNome)
+
+
+        Para as compras que não são tão rápidas, precisamos informar a quantidade de bolachinhas recheadas na compra, e então somar as bolachinhas recheadas.
+
+        Solicite a quantidade de bolachinhas na compra;
+        Receba o valor de cada um dos bolachinhas da compra;
+        Informe o total gasto na compra.
+        */
+        
+        // while - enquanto 
+        const quantidadeItems = Number(prompt("Digite a quantidade de items que você quer comprar:"))
+        5
+
+        while(numero >= quantidadeItems ){
+            numero ++; 
+            // enquanto (numero for menor ou igual a quantidade de items) {
+                //faça isso que eu to pedindo
+                //}
+                
+                
+                // while - enquanto , só acaba quando a minha condição for satisfeita
+                // agora numero é 1
+                // agora numero é 2
+                // agora numero é 3 
+                // agora numero é 4
+                // agora numero é 5
+            }  
+            
+        let numero = 63; 
+        /*
+        são a mesma coisa: 
+        numero = numero + 1
+        numero += 1
+        numero ++ 
+        */
+        if (numero <= quantidadeItems) {
+            //numero = numero + 1;
+            //numero += 1
+            //numero ++
+        /* 
+        se (numero menor ou igual a quantidade de items) {
+             faça o que eu to pedindo pf
+         }   
+        */
+
+        // agora o numero é 1
+        }
+        
+        let valorDoItem = parseFloat(prompt("digite o valor do item")).toFixed(2) 
+        let precoTotal = quantidadeItems * valorDoItem
+        console.log("preço total: " ,precoTotal)
+         
+
+
+    </>
+</body>
+</html>
+
+
+
+
+
+
+
+EXERCICIOS PÓS ALMOÇO:
+
+// 1. façam uma função, que receba dois parametros, e que realize a subtração deles.
+
+function subtracao(num1, num2) {
+    return num1 - num2;
+}
+
+console.log(subtracao(10, 5));
+
+
+
+// 2. descubra se um número é multiplo de 5 E de 7 ao mesmo tempo. Use uma função.
+
+function multiplo(num) {
+    if(num %5 == 0 && num %7 == 0) {
+        return console.log(`${num} é múltiplo de 5 e 7.`)
+    }else {
+        console.log(`${num} não é múltiplo de 5 e 7.`)
+    } 
+}
+multiplo(35)
+multiplo(72)
+
+
+
+EXERCICIOS DE FINAL DA AULA: 
+
+// 1. crie uma array com objetos, cada objeto com pelo menos 4 propriedades
+
+
+// 2. use métodos para acessar valores das propriedades desses objetos, e encontrar objetos pelo indice da lista. 
+
+
+
+FIDI-BÉQUIS(SOBRE A AULA)--------------------------------------------------------- !?
+;só no fim da aula essa parte; !important
+
+FOI BOM: 
+
+A  didática
+
+FOI RUIM: 
+
+Tempo
+
+
+PODE MELHORAR:
+ 
+
+
+lo0
