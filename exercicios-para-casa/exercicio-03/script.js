@@ -9,3 +9,40 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+
+let empresa = [{
+        nome = Ana,
+        cargo = jovem aprendiz,
+        idade = 19,
+        salario = 700,
+        anosDempresa = 1 ano,
+    },
+    {
+        nome = Bianca,
+        cargo = recepcionista,
+        idade = 23,
+        salario = 1700,
+        anosDempresa = 2 anos,
+    },
+    {
+        nome = Amanda,
+        cargo = enfermeira,
+        idade = 24,
+        salario = 1700,
+        anosDempresa = 4 anos,
+    },
+    {
+        nome = Scarlett,
+        cargo = jovem aprendiz,
+        idade = 19,
+        salario = 700,
+        anosDempresa = 1 ano,
+    },
+    {
+        nome = sonia,
+        cargo = enfermeira,
+        idade = 43,
+        salario = 3500,
+        anosDempresa = 13 anos,
+    }
+];
