@@ -21,10 +21,33 @@ const pessoas = [
         pais: 'Brasil',
     },
 ];
-/*
-1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;
 
-2. ETAPA2: Crie uma nova array que retorne o nome e a profissão das pessoas que vivem no Brasil, para as que não vivem no Brasil retorne o nome da pessoa com a mensagem: " infelizmente não mora na área pesquisada"; 
+//1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;
+console.log(pessoas);
 
-3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
-*/
+//2. ETAPA2: Crie uma nova array que retorne o nome e a profissão das pessoas que vivem no Brasil, para as que não vivem no Brasil retorne o nome da pessoa com a mensagem: " infelizmente não mora na área pesquisada"; 
+
+//um exemplo:
+/*for (let exemplo of pessoas){
+    console.log(exemplo.nome);*/
+
+    const teste = pessoas.map(function(pessoa){
+        if(pessoa.pais == 'Brasil'){
+          return {nome: pessoa.nome, profissao: pessoa.profissao}
+        }else{
+          return {nome: pessoa.nome, mensagem: 'Não reside nessa área pesquisada'}
+        }
+      });
+      
+      console.log(teste);
+
+
+//3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
+
+const desenvolvedoras = pessoas.filter(function(pessoa){
+    return pessoa.profissao == "desenvolvedora frontend"  
+}).map(function(pessoa){
+    return pessoa.pais
+})
+
+console.log(desenvolvedoras);
