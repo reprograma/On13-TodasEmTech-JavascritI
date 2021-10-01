@@ -48,7 +48,7 @@ const funcionarios = [{
 }
 ]; 
  funcionarios.map (function(pessoa){
-     if (pessoa.anosEmporesa >=3){
+     if (pessoa.anosEmpresa >=3){
          pessoa.salario = parseFloat(pessoa.salario * 1.10)
      } else{
         pessoa.salario = parseFloat(pessoa.salario * 1.05)
