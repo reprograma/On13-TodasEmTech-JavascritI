@@ -11,7 +11,7 @@
 
 3. ETAPA3: Ordene a sua lista em ordem alfabética ou numérica (de forma crescente e/ou descrescente);
 
-4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
+4.  
 
 
 ## exercício 2
