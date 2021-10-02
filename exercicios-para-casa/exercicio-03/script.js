@@ -9,3 +9,20 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+
+var funcionarios = [
+    {
+        nome: 'Mareduds',
+        cargo: 'Estudante',
+        idade: 25,
+        salario: 1200,
+        anosEmpresa: 1
+    },
+    {
+        nome: 'Renato',
+        cargo: "Programador",
+        idade: 25,
+        salario: 3000,
+        anosEmpresa: 5
+    }
+]
