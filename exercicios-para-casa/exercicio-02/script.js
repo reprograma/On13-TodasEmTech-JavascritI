@@ -28,3 +28,15 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+//console.log(pessoas)
+
+let pessoas2 = (pessoas.map(elemento, indice)){
+    if (pessoas.pais == "Brasil") {
+        console.log(`A profissão de ${nome} é ${profissao}`) 
+    } else {
+        console.log(`Infelizmente não mora na área pesquisada`)
+    }
+}
+
+pessoas2()

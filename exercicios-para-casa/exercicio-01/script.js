@@ -8,3 +8,10 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+let comidas = ["jujuba", "hamburguer", "pizza", "brigadeiro", "bolo", "chocolate", "coxinha"]
+comidas.shift()
+comidas.sort()
+//console.log(comidas.includes("salada"))
+console.log(comidas)
+
