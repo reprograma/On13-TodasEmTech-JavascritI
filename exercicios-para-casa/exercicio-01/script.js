@@ -8,3 +8,12 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+let names= ["Harpya", "Lino", "Satanara", "Calixto"];
+names.pop("Harpya");
+console.log(names.length)
+sort(names)
+console.log(names)
+
+
+
