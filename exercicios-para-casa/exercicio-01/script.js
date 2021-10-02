@@ -8,3 +8,10 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+const item = ['apple', 'orange', 'grape', 'coconut', 'lemon', 'banana'];
+item.shift();
+console.log(item);
+item.sort();
+console.log(item);
+console.log(item.includes('salada'));

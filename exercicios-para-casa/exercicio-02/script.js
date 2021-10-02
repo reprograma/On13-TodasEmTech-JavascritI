@@ -21,6 +21,8 @@ const pessoas = [
         pais: 'Brasil',
     },
 ];
+
+
 /*
 1. ETAPA1: Mostre no console as todas as propriedades e valores da variável pessoas;
 
@@ -28,3 +30,20 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+
+console.log(pessoas);
+const pessoasPais= pessoas.filter(function (elemento) {
+    if (elemento.pais === 'Brasil') {
+        return console.log(elemento.nome, elemento.profissao);
+    } else {
+        (elemento.pais !== 'Brasil')
+        return console.log(`${elemento.nome} 'infelizmente não mora na área pesquisada' `)
+    }
+});
+
+const pessoasProfissao = pessoas.filter(function (elemento) {
+    if (elemento.profissao === 'desenvolvedora frontend') {
+        return console.log(elemento.pais);
+    }
+});
