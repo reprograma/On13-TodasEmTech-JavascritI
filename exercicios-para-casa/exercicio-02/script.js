@@ -28,3 +28,43 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+
+/* ETAPA 1 */
+
+//usando for
+for (let i = 0; i< pessoas.length; i++){
+    console.log(pessoas[i].nome)
+    console.log(pessoas[i].profissao)
+    console.log(pessoas[i].pais)
+}
+
+//usando forEach
+pessoas.forEach(function(pessoa){
+    console.log(pessoa.nome)
+    console.log(pessoa.profissao)
+    console.log(pessoa.pais)
+})
+
+/* ETAPA 2 */
+
+pessoas.forEach(function(pessoa){
+
+    if(pessoa.pais == "Brasil"){
+        console.log(Array.of(pessoa.nome,pessoa.profissao))
+    }
+    else{
+        console.log(`${pessoa.nome} infelizmente não mora na área pesquisada`)
+    }
+})
+
+/* ETAPA 3 */
+
+const desenvolvedoresFront = pessoas.filter((pessoa) =>{
+    return pessoa.profissao =='desenvolvedora frontend'
+})
+const paisDev = desenvolvedoresFront.map((pessoa) =>{
+    return pessoa.pais
+})
+
+console.log(paisDev) ;
