@@ -28,3 +28,17 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+
+console.log(pessoas);
+
+
+let nacionalidade = pessoas.map(seSaoBrasileiras);
+
+function seSaoBrasileiras(pessoas){
+    if (pessoas.pais === 'Brasil'){
+        console.log('Nome: ' + pessoas.nome + ', ' + 'Profissão: ' + pessoas.profissao );
+    }else {
+        console.log('Infelizmente ' + pessoas.nome +' não mora na área pesquisada');
+    }
+};
