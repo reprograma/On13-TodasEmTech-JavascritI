@@ -9,3 +9,40 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+const funcionarios = [
+    {
+        nome: "Maria",
+        cargo: "Inspetora",
+        idade: 37,
+        salári0: 2500,
+        anosEmpresa: 6
+    },
+    {
+        nome: "Valeria",
+        cargo: "Operadora",
+        idade: 36,
+        salári0: 2100,
+        anosEmpresa: 5
+    },
+    {
+        nome: "Isabela",
+        cargo: "Coordenadora",
+        idade: 30,
+        salári0: 5000,
+        anosEmpresa: 11
+    },
+    {
+        nome: "Marcia",
+        cargo: "Analista",
+        idade: 29,
+        salári0: 2800,
+        anosEmpresa: 4
+    },
+    {
+        nome: "Camila",
+        cargo: "Analista",
+        idade: 29,
+        salári0: 2700,
+        anosEmpresa: 3
+    },
+]
