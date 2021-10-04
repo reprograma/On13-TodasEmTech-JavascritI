@@ -9,3 +9,37 @@
 4. ETAPA4: Diga qual é a média de idade des funcionáries da empresa
 
 */
+
+const employee = [
+    {
+        name: 'Anne',
+        work: 'Scrum Master',
+        age: 42,
+        salário: 7800,
+        YearsEmployed: 1,
+    },
+    {
+        name: 'Joane',
+        work: 'Tech recruiter',
+        age: 26,
+        wage: 4000,
+        YearsEmployed: 2,
+    },
+    {
+        name: 'Josh',
+        work: 'Backend Developer',
+        age: 50,
+        wage: 10000,
+        YearsEmployed: 1,
+    },
+    {
+        name: 'Luise',
+        work: 'FrontEnd Developer',
+        age: 25,
+        wage: 12000,
+        YearsEmployed: 5,
+    },
+    
+]
+
+  
