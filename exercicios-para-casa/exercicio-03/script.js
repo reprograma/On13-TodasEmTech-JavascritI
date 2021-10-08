@@ -16,7 +16,7 @@ let funcionarias = [
         cargo:'Desenvolvedora Front-End',
         idade: '23',
         salario: '3000,00',
-        anosDeEmpresa: '2',
+        anosDeEmpresa: '4',
     },
     {
         nome: 'Beatriz',
@@ -47,3 +47,29 @@ let funcionarias = [
         anosDeEmpresa: '1',
     },
 ];
+
+
+const aumento = funcionarias.map((item) => {
+    if (item.tempo >= 3) {
+      item.salario = (10 / 100) * item.salario + item.salario;
+    } else if (item.tempo <= 2) {
+      item.salario = (5 / 100) * item.salario + item.salario;
+    }
+    return item.salario;
+  });
+  
+  console.log(aumento);
+  
+  const maiorQueQuarenta = funcionarias.filter((item) => item.idade >= 40);
+  
+  console.log(maiorQueQuarenta);
+  
+  const idade = funcionarias.map((item) => {
+    return item.idade;
+  });
+  const media = idade.reduce(function (acumulador, valorAtual) {
+    let resultado = 0;
+    return (resultado = +acumulador + valorAtual / idade.length);
+  }, []);
+  
+  console.log(media);
