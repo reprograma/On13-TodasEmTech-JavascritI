@@ -32,14 +32,7 @@ const pessoas = [
        salario: 4500,
        anosDeEmpresa: 4,
     },
-    {
-        nome: 'Ivana',
-        cargo: 'UX',
-       idade: 24,
-       salario: 4500,
-       anosDeEmpresa: 2,
-    },
-
+   
     {
         nome: 'Ivana',
         cargo: 'UX',
@@ -77,7 +70,7 @@ function filtroIdade(pessoa){
     return pessoa.idade >40;
 }
 
-let funcionariasMaiorDe40 = funcionarias
+let funcionariasMaiorDe40 = pessoas
     .filter(filtroIdade)
     .map(filtroIdade);
 
@@ -94,7 +87,7 @@ function somarIdades(total,numero){
     return total+numero
 }
 
-let idadeFuncionarias = funcionarias.map(filtroAnos);
+let idadeFuncionarias = pessoas.map(filtroAnos);
 
 let idadeMedia = idadeFuncionarias.reduce(somarIdades);
 idadeMedia = idadeMedia/idadeFuncionarias.length;
