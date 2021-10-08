@@ -59,12 +59,31 @@ for(let indice= 0; indice < pessoas2.length; indice++){
     
 }
 
-*/
-
 let pessoas2 = (pessoas.slice(2,4));
 if(pessoas.includes(`Brasil`)){
     console.log(pessoas2[indice].nome);
     console.log(pessoas2[indice].profissao);
 }
+
+
+*/
+
+
+//c map
+
+let novaPesquisa = pessoas.map(filtrarPais);
+
+function filtrarPais(pessoa){
+    if(pessoa.pais == "Brasil"){
+        return (`Nome: ${pessoa.nome} | Profissão: ${pessoa.profissao}`)
+            }
+else{
+    return `Infelizmente não sei o que rolou, tente novamente`
+}
+
+        
+};
+
+console.log(novaPesquisa);
 
 
