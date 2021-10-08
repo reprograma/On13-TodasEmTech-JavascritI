@@ -8,3 +8,10 @@
 4. ETAPA4: Veja se existe o item com valor "salada" dentro da sua array; 
 
 */
+
+let esportes = ["volei", "futebol", "basquete", "natacao", "handball", "surf"];
+
+const caldo = esportes.shift();
+const organiza = esportes.sort ();
+Let includesSalada = esportes.includes("salada");
+console.log(esportes)
