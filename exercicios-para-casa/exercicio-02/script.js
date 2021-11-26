@@ -28,3 +28,60 @@ const pessoas = [
 
 3. ETAPA3: Crie uma nova array que retorne o país onde moram as pessoas que trabalham como desenvolvedoras frontend;
 */
+
+
+/*console.log(pessoas);
+
+let novaPesquisa = pessoas.map(filtrarPais);
+
+function filtrarPais(pessoa) {
+  if (pessoa.pais == "Brasil") {
+    return (`Nome: ${pessoa.nome} | Profissão: ${pessoa.profissao}`)
+  }
+  else {
+    return `Infelizmente não mora na área pesquisada`
+  }
+};
+
+console.log(novaPesquisa);
+
+
+let novaPesquisa = [];
+for (let i = 0; i < pessoas.length; i++) {
+  if (pessoas[i].pais == "Brasil") {
+    novaPesquisa.push(`Nome: ${pessoas[i].nome} | Profissão: ${pessoas[i].profissao}`);
+  } else {
+    novaPesquisa.push(`Infelizmente não mora na área pesquisada`)
+  }
+};
+console.log(novaPesquisa);
+
+
+function filtrarProfissao(pessoa) {
+  if (pessoa.profissao == "desenvolvedora frontend") {
+    return pessoa.pais
+  }
+  return pessoa.profissao == "desenvolvedora frontend"
+}
+
+let devsFrontend = pessoas
+  .filter(filtrarProfissao)
+  .map(filtrarProfissao);
+
+console.log('Países onde moram as pessoas que trabalham como desenvolvedoras frontend:', devsFrontend);
+
+
+
+let devsFrontend = [];
+for (let i = 0; i < pessoas.length; i++) {
+  if (pessoas[i].profissao == "desenvolvedora frontend") {
+    devsFrontend.push(pessoas[i].pais);
+  }
+};
+console.log('Países onde moram as pessoas que trabalham como desenvolvedoras frontend: ', devsFrontend); */
+
+console.log(pessoas);
+
+for (let exemplo of pessoas){
+    console.log(exemplo.nome);
+} 
